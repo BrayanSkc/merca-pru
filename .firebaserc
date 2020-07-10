@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "tori-dev",
+    "mercabot": "mercabot-tori"
+  }
+}

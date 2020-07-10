@@ -1,0 +1,415 @@
+/* --------------------------
+:: Template Name: Mercabot - App Landing Page 
+:: Template Author: Pluriza
+:: Template Author URI: https://pluriza.com/
+:: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
+:: Tags: MercaBot, App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
+:: Version: v1.0
+:: Created: 27/05/2020
+-------------------------- */
+
+/* --- [Master Stylesheet] ----
+:: 1.0 Base CSS Start
+:: 2.0 Header Area CSS
+:: 3.0 Wellcome Area CSS
+:: 4.0 Special Area CSS
+-------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import './../font-awesome.min.css';
+@import './../bootstrap.min.css';
+@import './../animate.css';
+
+/* --------------------------
+:: 1.0 Base CSS Start
+-------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    hyphens: auto !important;
+}
+
+body {
+    font-family: 'Baloo' !important;
+    background-color: #fff;
+    position: relative !important;
+    /* background-image: url('./../../img/Group\ 252.png');
+    background-position: center; */
+    /* background-repeat:no-repeat; */
+    /* background-size: 100% 100%; */
+}
+
+.section_padding_100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section_padding_100_50 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section_padding_100_70 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.section_padding_50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section_padding_50_20 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.section_padding_150 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.section_padding_200 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section_padding_0_100 {
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.section_padding_0_80 {
+    padding-top: 0;
+    padding-bottom: 80px;
+}
+
+.section_padding_0_60 {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.section_padding_0_10 {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.section_padding_70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section_padding_0_50 {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+.section_padding_0_0 {
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mt-8 {
+    margin-top: 8rem;
+}
+
+.mt-15 {
+    margin-top: 15rem;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mr-100 {
+    margin-right: 100px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.ml-100 {
+    margin-left: 100px;
+}
+
+.h-60 {
+    height: 60% !important;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+#scrollUp {
+    bottom: 0;
+    font-size: 24px;
+    right: 30px;
+    width: 50px;
+    background-color: #FEE14A;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+li {
+    list-style: none;
+}
+
+/* --------------------------
+:: 2.0 Header Area CSS
+-------------------------- */
+
+.header_area.sticky {
+    background-color: #D7EEDF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header_area.sticky .menu_area .navbar-brand {
+    font-size: 40px;
+}
+
+.header_area.sticky .menu_area #nav .nav-link {
+    padding: 23px 15px 0px 5px;
+}
+.header_area.sticky .navbar {
+    padding: 0;
+}
+
+.header_area {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    padding: 0px 6%;
+}
+
+.menu_area .navbar-brand {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+}
+
+.menu_area .navbar-brand:hover,
+.menu_area .navbar-brand:focus {
+    color: #fff;
+}
+
+.menu_area {
+    position: relative;
+    z-index: 2;
+}
+.btn-navs {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.btn-navs > a {
+    color: black !important;
+}
+
+.btn-navs > a.btn:hover {
+    background: #023534;
+    color: #fff !important;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+/* --------------------------
+:: 4.0 Special Area CSS
+-------------------------- */
+
+.special-area-content-text {
+    padding-top: 7rem;
+}
+
+.special-area-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 125%;
+    color: #000028;
+}
+
+.special-area-content {
+    padding: 0 6% !important;
+}
+
+
+.special-area-content-title  {
+    font-family: Baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 122%;
+    color: #1EAD5F;
+}
+
+.aprende-area-content {
+    padding: 0 6% !important;
+}
+
+.aprende-area-img {
+    display: flex;
+    justify-content: center;
+}
+
+.special-area-content-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000028;
+}
+
+.aprende-area-content-title  {
+    font-family: Baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 122%;
+    color: #1EAD5F;
+}
+
+.aprende-area-content-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000028;
+}
+
+/* --------------------------
+:: 4.0 Footer Area CSS Start
+-------------------------- */
+
+footer {
+    background-image: url(./../../img/mercabot-footer.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 10%;
+    padding-right: 4%;
+    padding-top: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 37rem
+}
+
+.footer-info > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-info > li > a {
+    color: black !important;
+    font-size: 16px;
+}
+
+.simplifica-vida-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    
+}
+
+
+/* GLOBAL */
+
+.leftItem {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.rightItem {
+    justify-content: flex-start;
+    display: flex;
+}

@@ -1,0 +1,195 @@
+/* --------------------------
+:: 4.0 Footer Area CSS Start
+-------------------------- */
+
+.footer_social {
+    background-color: #000028;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 10%;
+    padding-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* margin-top: 6rem; */
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.PoweredBy{
+    width: 152.6px !important; 
+    height: 72.3px !important;
+}
+
+.info_footer {
+    height: 10rem;
+}
+
+.footer_nav {
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+}
+
+.footer_nav > li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 2rem;
+}
+
+.footer_nav > li > a {
+    color: white !important;
+    font-size: 14px;
+}
+
+
+.footer_info {
+    display: flex;
+    align-content: center;
+}
+
+.footer_info > li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 1rem;
+}
+
+.social_media{
+    margin-right: 1rem;
+}
+
+.footer_info > li > a {
+    color: white !important;
+    font-size: 13px;
+}
+
+.simplifica-vida-all {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.simplifica-vida-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.simplifica-vida-items > .left > img {
+    width: 100%;
+    height: 100%;
+}
+
+.simplifica-vida-items > .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.simplifica-vida-items > .right > h4 {
+    font-family: Baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.simplifica-vida-items > .right > h5 {
+    font-family: Baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+
+@media (min-width:992px) and (max-width: 1299px) {
+    .footer_info > li > a {
+        font-size: 10px;
+    }
+
+    .footer_nav > li > a {
+        font-size: 20px;
+    }
+
+    .social_media{
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .footer_social{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .info_footer {
+        /* margin-top: 5rem !important; */
+        /* padding-bottom: 2rem; */
+        height: 15rem;
+        margin-bottom: 4rem;
+        padding-top: 2rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    .info_footer {
+        /* margin-top: 5rem !important; */
+        /* padding-bottom: 2rem; */
+        height: 15rem;
+        margin-bottom: 4rem;
+        padding-top: 2rem;
+    }
+
+    .footer_nav > li > a {
+        font-size: 16px;
+    }
+    
+}
+
+@media (min-width: 480px) and (max-width: 575px) {
+    
+    .info_footer {
+        /* margin-top: 5rem !important; */
+        /* padding-bottom: 2rem; */
+        height: 15rem;
+        margin-bottom: 4rem;
+        padding-top: 2rem;
+    }
+
+    .footer_nav > li > a {
+        font-size: 11px;
+    }
+
+    
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    
+    .info_footer {
+        /* margin-top: 5rem !important; */
+        /* padding-bottom: 2rem; */
+        height: 15rem;
+        margin-bottom: 4rem;
+        padding-top: 2rem;
+    }
+
+    .footer_nav > li > a {
+        font-size: 8px;
+    }
+    
+    .footer_info > li > a {
+        font-size: 10px;
+    }
+
+    .footer_social{
+        padding-left: 7%;
+    }
+}

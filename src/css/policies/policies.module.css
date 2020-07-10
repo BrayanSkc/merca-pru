@@ -1,0 +1,1130 @@
+/* --------------------------
+:: Template Name: Mercabot - App Landing Page 
+:: Template Author: Pluriza
+:: Template Author URI: https://pluriza.com/
+:: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
+:: Tags: MercaBot, App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
+:: Version: v1.0
+:: Created: 27/05/2020
+-------------------------- */
+
+/* --- [Master Stylesheet] ----
+:: 1.0 Base CSS Start
+:: 2.0 Header Area CSS
+:: 3.0 Wellcome Area CSS
+:: 4.0 Special Area CSS
+-------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* --------------------------
+:: 1.0 Base CSS Start
+-------------------------- */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    hyphens: auto !important;
+} */
+
+/* body { */
+    /* font-family: 'Baloo' !important;
+    background-color: #fff;
+    position: relative !important; */
+    /* background-image: url('../../images/Group\ 252.png');
+    background-position: center; */
+    /* background-repeat:no-repeat; */
+    /* background-size: 100% 100%; */
+/* } */
+
+.layout {
+    font-family: 'Baloo' !important;
+}
+
+.section_padding_100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section_padding_100_50 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section_padding_100_70 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.section_padding_50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section_padding_50_20 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.section_padding_150 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.section_padding_200 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section_padding_0_100 {
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.section_padding_0_80 {
+    padding-top: 0;
+    padding-bottom: 80px;
+}
+
+.section_padding_0_60 {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.section_padding_0_10 {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.section_padding_70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section_padding_0_50 {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+.section_padding_0_0 {
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mt-8 {
+    margin-top: 8rem;
+}
+
+.mt-15 {
+    margin-top: 15rem;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mr-100 {
+    margin-right: 100px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.ml-100 {
+    margin-left: 100px;
+}
+
+.h-60 {
+    height: 60% !important;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+#scrollUp {
+    bottom: 0;
+    font-size: 24px;
+    right: 30px;
+    width: 50px;
+    background-color: #FEE14A;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+li {
+    list-style: none;
+}
+
+/* --------------------------
+:: 2.0 Header Area CSS
+-------------------------- */
+
+.header_area.sticky {
+    background-color: #D7EEDF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header_area.sticky .menu_area .navbar-brand {
+    font-size: 40px;
+}
+
+.header_area.sticky .menu_area #nav .nav-link {
+    padding: 23px 15px 0px 5px;
+}
+.header_area.sticky .navbar {
+    padding: 0;
+}
+
+.header_area {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    padding: 0px 6%;
+}
+
+.menu_area .navbar-brand {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+}
+
+.menu_area .navbar-brand:hover,
+.menu_area .navbar-brand:focus {
+    color: #fff;
+}
+
+.menu_area {
+    position: relative;
+    z-index: 2;
+}
+.btn-navs {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.btn-navs > a {
+    color: black !important;
+}
+
+.btn-navs > a.btn:hover {
+    background: #023534;
+    color: #fff !important;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+/* --------------------------
+:: 3.0 Wellcome Area CSS
+-------------------------- */
+
+.wellcome_area {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-image: url(../../images/users/background-usuarios.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: relative;
+}
+
+.wellcome_area:after {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background-color: #fff;
+    content: '';
+    bottom: 0;
+    z-index: 2;
+}
+
+.wellcome_heading > h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 125%;
+    color: #000028;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 3rem;
+}
+
+.wellcome_heading > p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    /* line-height: 62px; */
+    color: #000028;
+    padding-bottom: 2rem;
+}
+
+.wellcome_heading > h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #1EAD5F;
+}
+
+.img-header-compra {
+    background-image: url('../../images/home/header-compra-horizontal.png') !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.get_start_area  {
+    display: flex;
+    padding-left: 8%;
+    padding-right: 35%;
+    padding-bottom: 6%;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+/* --------------------------
+:: 4.0 Special Area CSS
+-------------------------- */
+
+.special-area-content-text {
+    padding-top: 7rem;
+}
+
+.special-area {
+    background-image: url(../../images/mercabot-content.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.special-area-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 125%;
+    color: #000028;
+}
+
+.special_area_content {
+    padding: 0 6% !important;
+}
+
+
+.special-area-content-title  {
+    font-family: Baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 122%;
+    color: #1EAD5F;
+}
+
+.aprende-area-content {
+    padding: 0 6% !important;
+}
+
+.aprende-area-img {
+    display: flex;
+    justify-content: center;
+}
+
+.special-area-content-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000028;
+}
+
+.aprende-area-content-title  {
+    font-family: Baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 122%;
+    color: #1EAD5F;
+}
+
+.aprende-area-content-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000028;
+}
+
+.question-area-content {
+    padding-left: 16%;
+}
+
+.question-area-img {
+    display: flex;
+    justify-content: center;
+}
+
+.special-area-content-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000028;
+}
+
+.question-area-content-title  {
+    font-family: Baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 122%;
+    color: #1EAD5F;
+}
+
+.question-area-content-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000028;
+}
+
+.catalogo-area-content {
+    padding-left: 16%;
+}
+
+.catalogo-area-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.catalogo-area-content-title  {
+    font-family: Baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 122%;
+    color: #1EAD5F;
+}
+
+.catalogo-area-content-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000028;
+}
+
+/* --------------------------
+:: 4.0 Footer Area CSS Start
+-------------------------- */
+
+/* footer {
+    background-image: url(../../images/mercabot-footer.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 10%;
+    padding-right: 4%;
+    padding-top: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 37rem
+} */
+
+.footer-info > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-info > li > a {
+    color: black !important;
+    font-size: 16px;
+}
+
+.simplifica_vida_all {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.simplifica_vida_items {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    
+}
+
+
+/* GLOBAL */
+
+.leftItem {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.rightItem {
+    justify-content: flex-start;
+    display: flex;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 992px) and (max-width: 2000px) {
+    .btn-navs > a {
+        font-size: 16px !important;
+        margin-top: 0.5rem !important;
+    }
+    .wellcome_area {
+        padding-top: 5rem !important;
+    }
+    .wellcome_heading > h1 {
+        font-size: 34px !important;
+    }
+    .wellcome_heading > h2 {
+        font-size: 24px !important;
+    }
+    .wellcome_heading > p {
+        font-size: 18px !important;
+    }
+    .card-body-img{
+        padding: 1.25rem;
+    }
+
+    .card-body-img > img {
+        height: 30%;
+        width: 30%;
+    }
+
+    .card-body-img > .card-text {
+        font-size: 14px;
+    }
+
+    .special-area-content-text {
+        padding-top: 7rem;
+    }
+
+    /* img.img-header-compra  {
+        background-image: url('../../images/header-compra-horizontal.png') !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    } */
+}
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+    .btn-navs > a {
+        font-size: 15px !important;
+        margin-top: 0.5rem !important;
+    }
+    .wellcome_area {
+        padding-top: 5rem !important;
+    }
+    .wellcome_heading > h1 {
+        font-size: 42px;
+    }
+
+    .get_start_area {
+        padding-left: 8%;
+        padding-right: 27%;
+        padding-bottom: 3%;
+    }
+
+    .btn-start-area {
+        font-size: 16px;
+    }
+
+    .special-area-content-text {
+        padding-top: 6rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1299px) {
+    .btn-navs > a {
+        font-size: 13px !important;
+        margin-top: 0.5rem !important;
+    }
+    .wellcome_area {
+        padding-top: 5rem !important;
+    }
+    .wellcome_heading > h1 {
+        font-size: 42px;
+    }
+
+    .get_start_area {
+        padding-left: 8%;
+        padding-right: 32%;
+        padding-bottom: 7%;
+    }
+
+    .btn-start-area {
+        font-size: 14px;
+    }
+
+    .btn-start-area {
+        font-size: 16px;
+    }
+
+    .special-area-content-text {
+        padding-top: 3rem;
+    }
+
+    .card-body-img{
+        padding: 1.25rem;
+    }
+
+    .card-body-img > img {
+        height: 30%;
+        width: 18%;
+    }
+
+    .card-body-img > .card-text {
+        font-size: 13px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_area.sticky {
+        height: 8rem !important;
+    }
+    .btn-navs > a {
+        font-size: 16px !important;
+        margin-top: 0.5rem !important;
+    }
+    .menu_area {
+        display: flex;
+        justify-content: center;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+    .wellcome_area {
+        /* background-image: url('../../images/users/background-usuarios-movil.png') !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; */
+        padding-top: 9rem !important;
+    }
+    .wellcome_heading > h1 {
+        display: flex;
+        align-items: center;
+        font-size: 34px !important;
+        text-align: left;
+    }
+    .wellcome_heading > h2 {
+        font-size: 17px;
+        line-height: 20px;
+        text-align: left;
+    }
+    .wellcome_heading > p {
+        font-size: 13px;
+    }
+
+    .get_start_area {
+        padding-left: 7%;
+        padding-right: 19%;
+        padding-bottom: 6%;
+    }
+
+    .special-area-content-text {
+        padding-top: 3rem;
+    }
+
+    .btn-start-area {
+        font-size: 12px;
+    }
+
+    .card-body-img{
+        padding: 1.25rem;
+    }
+
+    .card-body-img > img {
+        height: 30%;
+        width: 21%;
+    }
+
+    .card-body-img > .card-text {
+        font-size: 12px;
+    }
+
+    .simplifica_vida_all {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header_area.sticky {
+        height: 8rem !important;
+    }
+    .menu_area {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .btn-navs > a {
+        font-size: 14px !important;
+        margin-top: 0.5rem;
+    }
+    .wellcome_area {
+        padding-top: 5rem !important;
+    }
+    .wellcome_heading > h1 {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+    }
+
+    .special-area {
+        background-image: none !important;
+    }
+
+    .get_start_area {
+        padding-left: 7%;
+        padding-right: 14%;
+        padding-bottom: 6%;
+    }
+
+    .btn-start-area {
+        font-size: 16px;
+    }
+
+    .card-body-img{
+        padding: 1.25rem;
+    }
+
+    .card-body-img > img {
+        height: 30%;
+        width: 30%;
+    }
+
+    .card-body-img > .card-text {
+        font-size: 9px;
+    }
+
+    .simplifica_vida_all {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 575px) {
+    
+    .header_area.sticky {
+        height: 8rem !important;
+    }
+    .btn-navs > a {
+        font-size: 15px !important;
+        margin-top: 0.5rem !important;
+    }
+    .wellcome_area {
+        padding-top: 8rem !important;
+    }
+    .wellcome_heading > h1 {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+
+    }
+    .wellcome_heading > p {
+        display: flex;
+        font-size: 10px;
+    }
+    .special-area {
+        background-image: none !important;
+    }
+
+    .btn-start-area {
+        font-size: 16px;
+    }
+
+    .special-area-content-text {
+        padding-top: 4rem;
+        padding-left: 1rem;
+    }
+
+    .question-area-content {
+        padding-left: 5%;
+    }
+
+    /* footer {
+        background-image: url(../../images/footer-movil.png) !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .simplifica_vida_all {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .simplifica_vida_items > .left {
+        width: 30% !important;
+        font-size: 10px;
+    } 
+
+    .simplifica_vida_items > .right {
+        width: 70% !important;
+        font-size: 12px;
+        font-weight: normal;
+    } 
+
+    .simplifica_vida_items > .right > h4 {
+        width: 70% !important;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    /* improve */
+    .dnone {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .header_area.sticky {
+        height: 8rem !important;
+    }
+    .btn-navs > a {
+        font-size: 12px !important;
+        margin-top: 0.5rem !important;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+    .wellcome_area {
+        background-image: url('../../images/users/background-usuarios-movil.png') !important;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 8rem !important;
+    }
+    .wellcome_heading > h1 {
+        display: flex;
+        align-items: left;
+        font-size: 34px;
+        text-align: left;
+
+    }
+    .wellcome_heading > h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .wellcome_heading > p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 180%;
+        padding-right: 0.5rem;
+    }
+    .special-area {
+        background-image: none !important;
+    }
+
+    .card {
+        margin-bottom: 2rem !important;
+    }
+
+    .get_start_area {
+        display: flex;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-bottom: 6%;
+    }
+
+    .btn-start-area {
+        font-size: 10px;
+    }
+
+    .card-body-img > p {
+        font-size: 13px;
+    }
+
+    .special-area-content-text {
+        padding-top: 7rem;
+        padding-left: 1rem;
+    }
+
+    .question-area-content {
+        padding-left: 5%;
+    }
+
+    /* footer {
+        display: flex;
+        background-image: url('../../images/footer-movil.png') !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .simplifica_vida_all {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .simplifica_vida_items > .left {
+        width: 30% !important;
+        font-size: 10px;
+    } 
+
+    .simplifica_vida_items > .right > h4 {
+        width: 70% !important;
+        font-size: 15px;
+        font-weight: normal;
+    } 
+
+    .simplifica_vida_items > .right {
+        width: 70% !important;
+        font-size: 10px;
+        font-weight: normal;
+    } 
+
+    /* improve */
+    .dnone {
+        display: none;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .header_area.sticky {
+        height: 8rem !important;
+    }
+    .btn-navs > a {
+        font-size: 12px !important;
+        margin-top: 0.5rem !important;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+    .wellcome_area {
+        background-image: url('../../images/users/background-usuarios-movil.png') !important;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 8rem !important;
+    }
+    .wellcome_heading > h1 {
+        display: flex;
+        align-items: left;
+        font-size: 34px;
+        text-align: left;
+
+    }
+    .wellcome_heading > h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .wellcome_heading > p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 180%;
+        padding-right: 0.5rem;
+    }
+    .special-area {
+        background-image: none !important;
+    }
+
+    .card {
+        margin-bottom: 2rem !important;
+    }
+
+    .get_start_area {
+        display: flex;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-bottom: 6%;
+    }
+
+    .btn-start-area {
+        font-size: 10px;
+    }
+
+    .card-body-img > p {
+        font-size: 13px;
+    }
+
+    .special-area-content-text {
+        padding-top: 7rem;
+        padding-left: 1rem;
+    }
+
+    .question-area-content {
+        padding-left: 5%;
+    }
+
+    /* improve */
+    .dnone {
+        display: none;
+    }
+
+    
+    /* footer {
+       display: flex;
+        background-image: url('../../images/footer-movil.png') !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 5rem;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .simplifica_vida_items > .left {
+        width: 30% !important;
+        font-size: 10px;
+    } 
+
+    .simplifica_vida_items > .right {
+        width: 70% !important;
+        font-size: 10px;
+        font-weight: normal;
+    } 
+
+}
+
+@media (min-width: 200px) and (max-width: 319px) {
+
+    .special-area {
+        background-image: none !important;
+    }
+
+    /* footer {
+        display: flex;
+        background-image: url('../../images/footer-movil.png') !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 15rem;
+    } */
+
+}
+

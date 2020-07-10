@@ -9,20 +9,20 @@ interface FirstAreaResourcesProps {
 
 const FirstAreaResources = ({ onClick }) => {
   const Storage = {
-    SectionFilter: sessionStorage.getItem("OptionFilter"),
-    TextFilter: sessionStorage.getItem("TextFilter"),
+    SectionFilter: 'Blog',
+    TextFilter: '',
   }
   const activeClass = useRef(Storage)
   const [textFilter, setTextFilter] = useState("")
 
-  const clearSearch = () => {
-    if (textFilter.trim() === "") {
-      sessionStorage.removeItem("TextFilter")
-    }
-  }
+  // const clearSearch = () => {
+  //   if (textFilter.trim() === "") {
+  //     sessionStorage.removeItem("TextFilter")
+  //   }
+  // }
 
   const optionFilter = (filter: string) => {
-    sessionStorage.setItem("OptionFilter", filter)
+    console.log("OptionFilter", filter)
     activeClass.current = {
       SectionFilter: filter,
       TextFilter: textFilter,
@@ -30,11 +30,11 @@ const FirstAreaResources = ({ onClick }) => {
     onClick()
   }
   const blogToSearch = () => {
-    sessionStorage.setItem("TextFilter", textFilter)
+   console.log("TextFilter", textFilter)
     onClick()
   }
 
-  clearSearch()
+//  clearSearch()
   return (
     <section
       className={`

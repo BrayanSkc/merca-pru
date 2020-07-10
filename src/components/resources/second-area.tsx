@@ -11,36 +11,36 @@ interface SecondAreaResourcesProps {
 const SecondAreaResources:React.SFC<SecondAreaResourcesProps> = ({ isFilter }) => {
   const [listFilter, setListFilter] = useState<any>([])
 
-  useEffect(() => {
-    const getFilterBlog = () => {
-      const section = sessionStorage.getItem("OptionFilter")
-      const text = sessionStorage.getItem("TextFilter")?.toLowerCase()
-      if (section) {
-        const newSection: any = JSON_CARDS.filter(function (f: any) {
-          return f.tag == section
-        })
-        if (text) {
-          const newFilter: any = newSection.filter(function (f: any) {
-            return f.title.includes(text)
-          })
-          setListFilter(newFilter)
-          return
-        }
-        setListFilter(newSection)
-      } else {
-        if (text?.trim().length > 1) {
-          console.log("entre filtro texto")
-          const newFilter: any = JSON_CARDS.filter(function (f: any) {
-            return f.title.indexOf(text?.toLowerCase()) != -1
-          })
-          setListFilter(newFilter)
-          return
-        }
-        setListFilter(JSON_CARDS)
-      }
-    }
-    getFilterBlog()
-  }, [isFilter])
+  // useEffect(() => {
+  //   const getFilterBlog = () => {
+  //     const section = sessionStorage.getItem("OptionFilter")
+  //     const text = sessionStorage.getItem("TextFilter")?.toLowerCase()
+  //     if (section) {
+  //       const newSection: any = JSON_CARDS.filter(function (f: any) {
+  //         return f.tag == section
+  //       })
+  //       if (text) {
+  //         const newFilter: any = newSection.filter(function (f: any) {
+  //           return f.title.includes(text)
+  //         })
+  //         setListFilter(newFilter)
+  //         return
+  //       }
+  //       setListFilter(newSection)
+  //     } else {
+  //       if (text?.trim().length > 1) {
+  //         console.log("entre filtro texto")
+  //         const newFilter: any = JSON_CARDS.filter(function (f: any) {
+  //           return f.title.indexOf(text?.toLowerCase()) != -1
+  //         })
+  //         setListFilter(newFilter)
+  //         return
+  //       }
+  //       setListFilter(JSON_CARDS)
+  //     }
+  //   }
+  //   getFilterBlog()
+  // }, [isFilter])
 
   const data = useStaticQuery(query)
   const getImageCards = (partner: any) => {
@@ -63,7 +63,7 @@ const SecondAreaResources:React.SFC<SecondAreaResourcesProps> = ({ isFilter }) =
       <div className="container-fluid">
         <div className={sas.info_cards}>
           <div className="row mt-5">
-            {listFilter.map((article:any) => (
+            {JSON_CARDS.map((article:any) => (
               <div
                 className={`col-12 col-lg-4 ${sas.card1}`}
                 key={article.idNotice}

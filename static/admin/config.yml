@@ -1,6 +1,5 @@
 backend:
-  name: BrayanSkc
-  repo: BrayanSkc/merca-pru
+  name: git-gateway
   branch: master
 
 media_folder: static/img
@@ -19,7 +18,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
